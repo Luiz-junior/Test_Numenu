@@ -11,7 +11,7 @@ app.use(auth.initialize());
 
 app.get('/', (req, res) => {
     res.json({
-        status: "Api Funfando!!"
+        status: "Api Running..."
     });
 });
 
